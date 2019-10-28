@@ -1,196 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>The Space Station Resort</title>
-        <link rel="stylesheet" href="CSS/share.css">
-        <link rel="stylesheet" href="CSS/animations.css">
-    </head>
-    <body>
+<html>
 
-        <!-- NAV -->
-        <div class="wrap">
-            <div class="menu-container">
-                <ul class="menu">
-                    <a href="#home"><li>HOME</li></a>
-                    <a href="#gallery"><li>GALLERY</li></a>
-                    <a href="#contact"><li>RESERVATIONS</li></a>
-                </ul>
-            </div>
-        </div>
-        <!-- END NAV -->
+<!-- Head -->
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio - Taylor Evert</title>
+		<link rel="stylesheet" type="text/css" href="CSS/portfolio_css.css">
+	</head>
 
-        <!-- HOME -->
-        <div id="home">
-            <div class="container">
-                <div class="text-center">
-                    <span class="head-main">The Space Station</span>
-                </div>
-            </div>
-        </div>
-        <!-- END HOME -->
+<!-- Body -->
+<body class="Background"> 
 
-        <!-- GALLERY -->
-        <section id="gallery">
-            <div class="container">
-                <h1>Gallery</h1>
-                <div class="flex-container">
+<!-- Navbar -->
+	<div class="Navbar">
+		<a class="active" href="#Home">Home</a> 
+		<a href="#About">About</a>
+		<a href="#GitHub">GitHub</a>
+		<a href="#Contact">Contact</a>
+	</div>
 
-                    <!-- PHOTO CONTAINER 1 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="../Project1/Images/Thumb/Thumbnail_1.png" alt="First Space Photo">
-                            <div class="photo-overlay">
-                                <h3>Click to Enlarge</h3>
-                                <p>We have several space launches departing daily, book your flight today!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END PHOTO CONTAINER 1 -->
+<!-- Home -->
+		<br> 
+		<br>
 
-                    <!-- PHOTO CONTAINER 2 -->
-                    <div class="photo-container">
-                            <div class="photo">
-                                <img src="../Project1/Images/Thumb/Thumbnail_2.png" alt="First Space Photo">
-                                <div class="photo-overlay">
-                                    <h3>Click to Enlarge</h3>
-                                    <p>We have several space launches departing daily, book your flight today!</p>
-                                </div>
-                            </div>
-                        </div>
-                    <!-- END PHOTO CONTAINER 2 -->
+<!-- Video -->
+	<div id="Home">
+		<video autoplay muted loop id="Typing_Video">
+			<source src="Videos/home_video_cloud.mp4" type="video/mp4">
+		</video>
+	</div>
 
-                    <!-- PHOTO CONTAINER 3 -->
-                    <div class="photo-container">
-                            <div class="photo">
-                                <img src="../Project1/Images/Thumb/Thumbnail_3.png" alt="First Space Photo">
-                                <div class="photo-overlay">
-                                    <h3>Click to Enlarge</h3>
-                                    <p>We have several space launches departing daily, book your flight today!</p>
-                                </div>
-                            </div>
-                        </div>
-                    <!-- END PHOTO CONTAINER 3 -->
+<!-- Video text --> 
+	<div class="Video_Text"> 
+		<h1 style="color:white;">Portfolio | Taylor Evert</h1>
+			<p> 
+				<strong>
+					<center>
+						<q>Imagination is more important than knowledge.
+						<br>For knowledge is limited, whereas imagination embraces the entire world,
+						<br>stimulating progress, giving birth to evolution.
+						</q>	
+						<br> - Albert Einstein<br>
+						<br>
+						Hello! My name is Taylor Evert, and this is my portifolio website. On it, I will share about my background and experience.<br>
+						<br>Thank you for visiting my website, and I hope you enjoy!
+					</center>	
+				</strong>
+			</p> 
+	</div>
 
-                    <!-- PHOTO CONTAINER 4 -->
-                    <div class="photo-container">
-                            <div class="photo">
-                                <img src="../Project1/Images/Thumb/Thumbnail_4.png" alt="First Space Photo">
-                                <div class="photo-overlay">
-                                    <h3>Click to Enlarge</h3>
-                                    <p>We have several space launches departing daily, book your flight today!</p>
-                                </div>
-                            </div>
-                        </div>
-                    <!-- END PHOTO CONTAINER 4 -->
+<!-- About section -->
+	<div class="Row" id="About"> 
+		<div class="Column_2"> <!-- Left column -->
+			<img src="Images/image-about2.jpg" alt="Laptop and Coffee">
+		</div>
+  
+		<div class="Column_1"> <!-- Right column -->
+			<h1>About</h1>
+				<p>I am a young software developer who loves computers!<br><br>I am a currently working to graduate from <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, where I am training in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!</p>
+		</div>
+	</div>
 
-                    <!-- PHOTO CONTAINER 5 -->
-                    <div class="photo-container">
-                            <div class="photo">
-                                <img src="../Project1/Images/Thumb/Thumbnail_5.png" alt="First Space Photo">
-                                <div class="photo-overlay">
-                                    <h3>Click to Enlarge</h3>
-                                    <p>We have several space launches departing daily, book your flight today!</p>
-                                </div>
-                            </div>
-                        </div>
-                    <!-- END PHOTO CONTAINER 5 -->
+<!-- GitHub section -->
+	<div class="Row" id="GitHub">
+		<div class="Column_1"> <!-- Left column -->
+			<h1>GitHub</h1>
+				<p>You can view my GitHub profile here:
+                <center><a href="https://github.com/TaylorEvert" target="_blank">Taylor Evert - GitHub</a></center></p>
+                <p>You can view my HTML and CSS Projects here: 
+                <center><a href="https://github.com/TaylorEvert/HTML-and-CSS-Documents">Taylor Evert - HTML and CSS</a></center></p>
+                
+		</div>
+		
+		<div class="Column_2"> <!-- Right column -->
+			<a href="https://github.com/TaylorEvert" target="_blank"><img src="Images/image-github.png" alt="GitHub"></a>
+		</div>
+	</div>
 
-                    <!-- PHOTO CONTAINER 6 -->
-                    <div class="photo-container">
-                            <div class="photo">
-                                <img src="../Project1/Images/Thumb/Thumbnail_6.png" alt="First Space Photo">
-                                <div class="photo-overlay">
-                                    <h3>Click to Enlarge</h3>
-                                    <p>We have several space launches departing daily, book your flight today!</p>
-                                </div>
-                            </div>
-                        </div>
-                    <!-- END PHOTO CONTAINER 6 -->
+<!-- Contact section -->
+	<div class="Row" id="Contact"> 
+		<div class="Column_3"> <!-- Contact image, left column -->
+			<img src="Images/image-contact.png" alt="Contact_Image">
+		</div>
+	
+		<div class="Column_1"> <!-- Contact form, right "column" -->
+			<h1>Contact</h1> 
+				<form action="" method="get"> <!-- This specifies where to send the form data and how; it is left blank -->
+					<label>Name:</label>
+						<input type="text" placeholder="Please enter your name here">
+					<label>Email:</label>
+						<input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+					<label>Message:</label>
+						<input type="text" id="Message" name="Message" placeholder="Please write your message here">
+						<input type="submit" value="Submit">
+				</form>
+		</div>
+	</div>
+</body>	
+<!-- Footer section -->
+	<footer>
+		<p>
+			<center>&copy Prosper Consulting Inc.,  <a href="https://learncodinganywhere.com/">The Tech Academy</a></center><br>
+		</p>
+	</footer>
 
-                    <!-- PHOTO CONTAINER 7 -->
-                    <div class="photo-container">
-                            <div class="photo">
-                                <img src="../Project1/Images/Thumb/Thumbnail_7.png" alt="First Space Photo">
-                                <div class="photo-overlay">
-                                    <h3>Click to Enlarge</h3>
-                                    <p>We have several space launches departing daily, book your flight today!</p>
-                                </div>
-                            </div>
-                        </div>
-                    <!-- END PHOTO CONTAINER 7 -->
+		
 
-                    <!-- PHOTO CONTAINER 8 -->
-                    <div class="photo-container">
-                            <div class="photo">
-                                <img src="../Project1/Images/Thumb/Thumbnail_8.png" alt="First Space Photo">
-                                <div class="photo-overlay">
-                                    <h3>Click to Enlarge</h3>
-                                    <p>We have several space launches departing daily, book your flight today!</p>
-                                </div>
-                            </div>
-                        </div>
-                    <!-- END PHOTO CONTAINER 8 -->
-
-                    <!-- PHOTO CONTAINER 9 -->
-                    <div class="photo-container">
-                            <div class="photo">
-                                <img src="../Project1/Images/Thumb/Thumbnail_9.png" alt="First Space Photo">
-                                <div class="photo-overlay">
-                                    <h3>Click to Enlarge</h3>
-                                    <p>We have several space launches departing daily, book your flight today!</p>
-                                </div>
-                            </div>
-                        </div>
-                    <!-- END PHOTO CONTAINER 9 -->
-
-                </div>
-            </div>
-        </section>
-        <!-- END GALLERY -->
-
-        <!-- RSVP -->
-        <section id="contact">
-            <div class="container">
-                <div class="heading-padding">
-
-                    <h1 class="heading-padding">Reservations</h1>
-                    <div class="reservation">
-                        <h2><span>Your adventure is just around the moon.</span>
-                            <br/>Reserve your flight today!
-                        </h2>
-                        <p class="rsvp-text">
-                            Please provide us with your basic contact information.
-                        </p>
-
-                        <div class="form-rsvp">
-                            <form action="" method="post">
-                                <input class="rsvp" type="text" value="" placeholder="First Name">
-                                <input class="rsvp" type="text" value="" placeholder="Last Name">
-                                <input class="rsvp" type="text" value="" placeholder="Email Address">
-                                <input class="rsvp" type="text" value="" placeholder="Phone Number">
-                                <div class="form-spacer">
-                                    <label class="terms">Terms and Conditions</label>
-                                </div>
-                                <div class="submit">
-                                    <input type="submit" value="Submit">
-                                </div>
-                            </form>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- END RSVP -->
-
-        <!-- FOOTER -->
-        <div id="footer">
-            www.thespacestation.com &nbsp;|&nbsp; &copy; 2019
-        </div>
-        <!-- END FOOTER -->
-
-
-    </body>
 </html>
